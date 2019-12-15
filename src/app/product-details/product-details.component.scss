@@ -1,0 +1,13 @@
+.product-image{
+    max-height: 300px;
+    max-width: auto;
+    margin: 0 auto;
+    &:hover{
+        transform: scale(1.6);
+        box-shadow: 0 3px 25px black;
+        z-index: 20;
+        position: relative;
+        
+        
+    }
+}
