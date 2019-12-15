@@ -7,17 +7,17 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { CartComponent } from './cart/cart.component';
-import {AboutComponent } from './about/about.component'
+import {AboutComponent } from './about/about.component';
 
 const routes: Routes = [
-  
-  {path:'register',component:RegisterComponent},
-  {path:'login',component:LoginComponent},
-  {path:'products',component:ProductsComponent},
-  {path:'cart',component:CartComponent},
-  {path:'product-details/:id',component:ProductDetailsComponent},
-  {path:'',component:HomeComponent},
-  {path:'about',component:AboutComponent},
+
+  {path: 'register', component: RegisterComponent},
+  {path: 'login', component: LoginComponent},
+  {path: 'products', component: ProductsComponent},
+  {path: 'cart', component: CartComponent},
+  {path: 'product-details/:id', component: ProductDetailsComponent},
+  {path: '', component: HomeComponent},
+  {path: 'about', component: AboutComponent},
 ];
 
 @NgModule({
